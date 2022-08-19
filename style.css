@@ -77,11 +77,12 @@ h2 {
     color: #483D5D;
 }
 
-.resultado {
-    font-size: 2rem;
-    margin: 10px;
+#resultado {
+    font-size: 3rem;
+    margin: 5px;
     margin-left: 11%;
-    padding: 5%;
+    margin-top: 0;
+    padding: 1%;
     max-width: 70%;
     text-align: justify;
     color: #483D5D;
