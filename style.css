@@ -26,14 +26,16 @@ hr {
     font-size: 10rem;
     margin-top: 0;
     margin-bottom: 10px;
-    color:#483D5D;
+    color: #483D5D;
 }
 
-#p1 {
+.p1 {
     text-align: justify;
     font-size: 3.5rem;
-    margin-bottom: 30px;    
+    margin-bottom: 30px;
+    color: #483D5D;
 }
+
 
 form {
     display: flex;
@@ -48,8 +50,10 @@ input {
     box-sizing: border-box;
     text-align: center;
     margin-bottom: 40px;
+    color: #483D5D;
 
 }
+
 
 #div {
     display: flex;
@@ -73,7 +77,7 @@ h2 {
 }
 
 .resultado {
-    font-size: 2rem;    
+    font-size: 2rem;
     margin: 10px;
     margin-left: 11%;
     padding: 5%;
