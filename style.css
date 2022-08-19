@@ -1,0 +1,93 @@
+#t1 {
+    text-align: center;
+    font-size: 13rem;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    color: #483D5D;
+}
+
+hr {
+    height: 30px;
+    background-color: #483D5D;
+}
+
+.container {
+    font-family: 'Courier New', Courier, monospace;
+    max-width: 90em;
+    margin: auto;
+    margin-top: 40px;
+    background-color: aliceblue;
+    padding: 20px;
+    border: 1em solid #483D5D;
+}
+
+#t2 {
+    text-align: center;
+    font-size: 10rem;
+    margin-top: 0;
+    margin-bottom: 10px;
+    color:#483D5D;
+}
+
+#p1 {
+    text-align: justify;
+    font-size: 3.5rem;
+    margin-bottom: 30px;    
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+input {
+    font-size: 3rem;
+    width: 90%;
+    padding: 10px;
+    box-sizing: border-box;
+    text-align: center;
+    margin-bottom: 40px;
+
+}
+
+#div {
+    display: flex;
+}
+
+.button1 {
+    width: 450px;
+    height: 100px;
+    background-color: #483D5D;
+    color: aliceblue;
+    font-size: 3.5rem;
+    cursor: pointer;
+    justify-content: center;
+    margin: auto;
+}
+
+h2 {
+    font-size: 3rem;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.resultado {
+    font-size: 2rem;    
+    margin: 10px;
+    margin-left: 11%;
+    padding: 5%;
+    max-width: 70%;
+    text-align: justify;
+    color: #483D5D;
+
+}
+
+
+/*  QUANTIDADE POR PESSOA  */
+
+
+
+
+
+@media screen and (max-width: 500px) {}
