@@ -27,22 +27,23 @@ function calcular() {
 }
 
 
+
 function carnePP(dur) {
-    let Car = document.querySelector("#qntCa")    
+    let Car = document.querySelector("#qntCa")
     let Ca = Car.value    
-    return dur >= 6 ? Cax : Cax
+    return dur >= 1 ? Ca : null
 }
 
 function cervejaPP(dur) {
-    let Cer = document.querySelector("#qntCe")    
-    let Ce = Cer.value    
-    return dur >= 6 ? Cex : Cex
+    let Cer = document.querySelector("#qntCe")
+    let Ce = Cer.value
+    return dur >= 1 ? Ce : null
 }
 
 function bebidaPP(dur) {
-    let Be = document.querySelector("#qntB")  
-    let B = Be.value    
-    return dur >= 6 ? Bx : Bx
+    let Be = document.querySelector("#qntB")
+    let B = Be.value
+    return dur >= 1 ? B : null
 }
 
 
