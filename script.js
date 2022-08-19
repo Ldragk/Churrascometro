@@ -1,7 +1,13 @@
+// Carne: 600g por pessoa + de 6 horas - 650g
+// Cerveja: 1200ml por pessoa + de 6 horas 2000 ml
+// Refrigetante / Agua: 1000 ml por pessoa + de 6 horas 1500ml
+// Criança vale por 0.5
+
 let inputAdultos = document.querySelector("#adultos")
 let inputCrianças = document.querySelector("#criancas")
 let inputDuração = document.querySelector("#duracao")
 let resultado = document.querySelector("#resultado")
+
 
 
 function calcular() {
@@ -14,7 +20,7 @@ function calcular() {
 
     let qntCarne = carnePP(duração) * adultos + (carnePP(duração) / 2) * crianças
     let qntCerveja = cervejaPP(duração) * adultos
-    let qntBebida = bebidaPP(duração) * adultos + (bebidaPP(duração) / 2) * crianças  
+    let qntBebida = bebidaPP(duração) * adultos + (bebidaPP(duração) / 2) * crianças
     let qntCaH = (qntCarne / 1000) / duração
     let qntCeH = (qntCerveja / 1000) / duração
     let qntBeH = (qntBebida / 2000) / duração
@@ -25,41 +31,38 @@ function calcular() {
     resultado.innerHTML += `<p>${Math.ceil(qntCerveja / 1000)} Garrafas de Cerveja.</p>`
     resultado.innerHTML += `<p>${Math.ceil(qntBebida / 2000)} Pet's 2L de Refrigerante ou Água.</p>`
 
-    resultado.innerHTML += `<hr><p>${parseFloat(qntCaH)}kg por hora.`
+    resultado.innerHTML += `<hr id="hr"><p>${parseFloat(qntCaH)}kg por hora.`
     resultado.innerHTML += `<p>${qntCeH} Garrafas de Cerveja por hora.`
     resultado.innerHTML += `<p>${qntBeH} Pet's 2L por hora.`
 
     // Serve para o css só aparecer após o click.
     resultado.classList.add('resultado')
+
 }
 
+console.memory(calcular())
 
 function carnePP(dur) {
-    let Car = document.querySelector("#qntCa")
-    let Ca = Car.value    
-    return dur >= 1 ? Ca : null
+    
+    return dur >= 6 ? 650 : 400;
 }
 
 function cervejaPP(dur) {
-    let Cer = document.querySelector("#qntCe")
-    let Ce = Cer.value
-    return dur >= 1 ? Ce : null
+    return dur >= 6 ? 650 : 400;
 }
 
 function bebidaPP(dur) {
-    let Be = document.querySelector("#qntB")
-    let B = Be.value
-    return dur >= 1 ? B : null
+    return dur >= 6 ? 650 : 400;
 }
 
 
-// BOTÃO DE RESET
 
 document.querySelector("#form").addEventListener("reset", (a) => {
 
     resultado.innerHTML = null;
     resultado.classList.remove("resultado");
 });
+
 
 
 // CLICAR COM BOTÃO ENTER
