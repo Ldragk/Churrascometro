@@ -16,7 +16,7 @@ function calcular() {
     let qntCerveja = cervejaPP(duração) * adultos
     let qntBebida = bebidaPP(duração) * adultos + (bebidaPP(duração) / 2) * crianças
 
-    // É necessário as aspas diferentes (Template String) e o $
+    // É necessário as Template String e o $
     // O += é para que todos os resultados apareçam, caso contrário so aparecia o ultimo
     resultado.innerHTML = `<p>${qntCarne / 1000}kg de Carne</p>`
     resultado.innerHTML += `<p>${Math.ceil(qntCerveja / 1000)} Garrafas de Cerveja</p>`
