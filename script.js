@@ -1,8 +1,3 @@
-// Carne: 600g por pessoa + de 6 horas - 650g
-// Cerveja: 1200ml por pessoa + de 6 horas 2000 ml
-// Refrigetante / Agua: 1000 ml por pessoa + de 6 horas 1500ml
-// Criança vale por 0.5
-
 let inputAdultos = document.querySelector("#adultos")
 let inputCrianças = document.querySelector("#criancas")
 let inputDuração = document.querySelector("#duracao")
