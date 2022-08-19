@@ -45,23 +45,20 @@ function calcular() {
 
 function carnePP(dur) {
     let Car = document.querySelector("#qntCa")    
-    let Ca = Car.value
-    let Cax = Ca * 0.5
-    return dur >= 6 ? Cax : Ca
+    let Ca = Car.value    
+    return dur >= 6 ? Cax : Cax
 }
 
 function cervejaPP(dur) {
     let Cer = document.querySelector("#qntCe")    
-    let Ce = Cer.value
-    let Cex = Ce * 0.5
-    return dur >= 6 ? Cex : Ce
+    let Ce = Cer.value    
+    return dur >= 6 ? Cex : Cex
 }
 
 function bebidaPP(dur) {
     let Be = document.querySelector("#qntB")  
-    let B = Be.value
-    let Bx = B * 0.5
-    return dur >= 6 ? Bx : B
+    let B = Be.value    
+    return dur >= 6 ? Bx : Bx
 }
 
 
