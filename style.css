@@ -60,20 +60,21 @@ input {
 }
 
 .button1 {
-    width: 450px;
-    height: 100px;
+    width: 640px;
+    height: 150px;
     background-color: #483D5D;
     color: aliceblue;
-    font-size: 3.5rem;
+    font-size: 4.5rem;
     cursor: pointer;
     justify-content: center;
     margin: auto;
 }
 
 h2 {
-    font-size: 3rem;
+    font-size: 5rem;
     text-align: center;
     margin-top: 30px;
+    color: #483D5D;
 }
 
 .resultado {
