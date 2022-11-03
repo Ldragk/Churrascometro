@@ -10,6 +10,6 @@
 <br><br>
 
 <div align="center">
-    <img width="60%" src="./public/img.png" alt="print churrascômetro"><br>
-    <img width="20%" src="./public/imgres.png" alt="print churrascômetro responsivo">
+    <img width="100%" src="./public/img.png" alt="print churrascômetro"><br>
+    <img width="40%" src="./public/imgres.png" alt="print churrascômetro responsivo">
 </div>
